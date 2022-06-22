@@ -1,0 +1,108 @@
+.header {
+    background-color: #212832;
+
+}
+
+.top-head {
+    background-color: #EEFBF3;
+
+}
+
+.top-head p {
+    padding-top: 10px;
+}
+
+.top-head span {
+    color: #309255;
+    font-weight: 500;
+    padding: 10px;
+}
+
+.top-head .icons {
+    color: #309255;
+    font-weight: 500;
+    padding-right: 10px;
+}
+.logo {
+    color: #309255;
+}
+.nav-container {
+    margin-top: 20px;
+    padding: 30px 0px 30px 10px;
+    border-radius: 10px;
+    border: 1px solid #309255;
+  
+}
+
+.navbar-light .navbar-nav .nav-link {
+    margin-right: 30px;
+    color: #309255;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.navbar-light .navbar-nav .show>.nav-link {
+    color: #309255;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #309255;
+}
+
+/* .first-nav {
+    margin-left: 100px;
+} */
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0;
+
+    color: #fff;
+
+}
+.dropdown-menu{
+   
+    color: #fff;
+    border: 1px solid #309255;
+    
+}
+.navbar-light .navbar-toggler {
+    border: none;
+}
+.Buttons {
+    padding-right: 30px;
+    font-size: 18px;
+    font-weight: 500;
+}
+.sign-btn {
+    background-color: transparent;
+    border: 1px solid #309255;
+  
+    padding: .8rem;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: 500;
+}
+.sign-btn:hover {
+    background-color: transparent;
+   color: #309255;
+   border-color: #309255;
+ 
+}
+.signUp-btn {
+    background-color: #309255;
+    border: none;
+
+    padding: .8rem;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: 500;
+}
+.signUp-btn:hover {
+    background-color: transparent;
+    border: 1px solid #309255;
+
+  
+    border-radius: 10px;
+    color: #309255;
+}
