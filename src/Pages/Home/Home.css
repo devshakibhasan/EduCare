@@ -264,10 +264,12 @@ ul {
 .right-content {
     position: relative;
     margin-top: 50px;
+   
 }
 
 .right-content img {
     height: 40rem;
+    float: right;
 }
 
 .img-thumbnail {
