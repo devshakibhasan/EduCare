@@ -15,7 +15,7 @@ const Home = () => {
 
                 <Container >
                     <Row>
-                        <Col lg='4' md='6' sm='12' className='left-content'>
+                        <Col lg='4' md='6' sm='12' className='left-content img-thumbnail'>
                             <h4>Start your favourite course</h4>
                             <h2>Now learning from anywhere, and build your <span>bright career.</span> </h2>
                         </Col>

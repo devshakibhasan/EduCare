@@ -2,12 +2,15 @@
 body {
     background-color: #212832;
 }
+/* home section start */
 .home {
     color: black;
     background-color: #212832;
     padding-top: 200px;
     margin-bottom: 100px;
 }
+
+/* home section bottom waves start*/
 
 .waves {
     position: relative;
@@ -26,7 +29,7 @@ body {
     background-color: #212832;
 }
 
-/* Animation */
+/* waves Animation */
 .parallax>use {
     animation: move-forever 25s cubic-bezier(.55, .5, .45, .5) infinite;
 }
@@ -89,6 +92,7 @@ body {
 
 }
 
+/* home section background circle */
 .home-section .home-content {
   
     position: relative;
@@ -220,6 +224,7 @@ ul {
     }
 }
 
+/* home section left content */
 .left-content {
     max-width: 410px;
     padding-top: 10rem;
@@ -242,6 +247,7 @@ ul {
     margin-top: 25px;
     color: #fff;
 }
+/* home section left content spna before image*/
 
 .left-content h2 span::before {
     position: absolute;
@@ -259,13 +265,48 @@ ul {
     transform: translateX(-25%);
 }
 
+@media only screen and (min-width: 768px) and (max-width: 1190px)  {
+    .left-content h2 span::before {
+        bottom: 40%;
+        -webkit-transform: translateX(-5%);
+        -ms-transform: translateX(-5%);
+        transform: translateX(-95%);
+    }
+}
+@media only screen and (min-width: 392px) and (max-width: 767px)  {
+    .left-content h2 span::before {
+        bottom: 62%;
+        -webkit-transform: translateX(-5%);
+        -ms-transform: translateX(-5%);
+        transform: translateX(-5%);
+    }
+}
+@media only screen and (min-width: 309px) and (max-width: 391px)  {
+    .left-content h2 span::before {
+        bottom: 62%;
+        -webkit-transform: translateX(-5%);
+        -ms-transform: translateX(-5%);
+        transform: translateX(-95%);
+    }
+}
+@media only screen and (min-width: 20px) and (max-width: 308px)  {
+    .left-content h2 span::before {
+        bottom: 58%;
+        -webkit-transform: translateX(-5%);
+        -ms-transform: translateX(-5%);
+        transform: translateX(-65%);
+    }
+}
 
+
+/* home section right content*/
 
 .right-content {
     position: relative;
     margin-top: 50px;
    
 }
+/* home section right content image*/
 
 .right-content img {
     height: 40rem;
@@ -278,7 +319,7 @@ ul {
     -webkit-animation: mover 3s   alternate;
     animation: mover 3s   alternate;
 }
-
+/* home section right content circle1*/
 .right-content .course {
     height: 150px;
     width: 150px;
@@ -302,6 +343,7 @@ ul {
     justify-content: center;
     padding-left: 1.5rem;
 }
+/* home section right content circle2*/
 .right-content .course2 {
     height: 150px;
     width: 150px;
@@ -329,6 +371,7 @@ ul {
    color: #FFA200;
 }
 
+/* home section right content moving arrow*/
 
 .curved-arrow {
     height: 10%;
