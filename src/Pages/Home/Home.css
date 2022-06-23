@@ -446,11 +446,19 @@ ul {
 .Expertise {
     background-color: #0f1d2d;
     padding-top: 100px;
+    padding-bottom: 100px;
     color: #fff;
 }
-.Expertise img{
+
+.Expertise img {
     height: 40rem;
     float: left;
+}
+
+@media only screen and (min-width: 10px) and (max-width: 768px) {
+    .Expertise img {
+        display: none;
+    }
 }
 
 .expertise-subheading {
@@ -462,22 +470,74 @@ ul {
     font-weight: 500;
     line-height: 1.4;
 }
+
 .exp-content {
     background-color: #29a95a;
     margin-bottom: 2rem;
     padding: 1rem;
     border-radius: 5px;
-    margin-top: 1rem;
+    margin-top: 2rem;
 }
+
 .exp-content:hover {
-    -webkit-animation: mover 1s  alternate;
-    animation: mover 1s  alternate;
-   
+    -webkit-animation: mover 1s alternate;
+    animation: mover 1s alternate;
+
 }
 
 .exp-icons {
     font-size: 60px;
     line-height: 1.2;
     color: #000;
+    padding: 1rem;
+}
+
+
+/* Counter section start  */
+
+.counter-section {
+    background-color: #0a1524;
+}
+
+.counter-section #counter {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 1;
+}
+.counter-section #counter2 {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 1;
+}
+.counter-section #counter3 {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 1;
+}
+.counter-section #counter4 {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 1;
+}
+
+.counter-content {
+    background-color: #2b9054;
+    margin-bottom: 2rem;
+    padding: 1rem;
+    border-radius: 5px;
+    margin-top: 2rem;
+    color: #fff;
+}
+
+.counter-content:hover {
+    -webkit-animation: mover 1s alternate;
+    animation: mover 1s alternate;
+
+}
+
+.counter-icons {
+    font-size: 60px;
+    line-height: 1.2;
+    color: #fff;
     padding: 1rem;
 }
