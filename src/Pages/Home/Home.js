@@ -114,7 +114,7 @@ const Home = () => {
                                 <FontAwesomeIcon icon={faBookAtlas} className='exp-icons' />
                                 <div>
                                     <h3>Online Courses</h3>
-                                    <p>Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content. Lorem ipsum may be used as a placeholder before final copy is available.</p>
+                                    <p>Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content.  </p>
                                 </div>
 
                             </div>
@@ -122,7 +122,7 @@ const Home = () => {
                                 <FontAwesomeIcon icon={faCertificate} className='exp-icons' />
                                 <div>
                                     <h3>Earn A Certificates</h3>
-                                    <p>Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content. Lorem ipsum may be used as a placeholder before final copy is available.</p>
+                                    <p>Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content.  </p>
                                 </div>
 
                             </div>
@@ -130,7 +130,7 @@ const Home = () => {
                                 <FontAwesomeIcon icon={faPeopleLine} className='exp-icons' />
                                 <div>
                                     <h3>Learn with Expert</h3>
-                                    <p>Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content. Lorem ipsum may be used as a placeholder before final copy is available.</p>
+                                    <p>Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content.  </p>
                                 </div>
 
                             </div>
