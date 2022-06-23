@@ -23,7 +23,7 @@ const Home = () => {
         var count3 = document.getElementById("counter3");
         var count4 = document.getElementById("counter4");
         count.innerHTML = ++upto;
-        if (upto === 1000) {
+        if (upto === 500) {
             clearInterval(counts);
         }
         count2.innerHTML = ++upto2;
@@ -35,7 +35,7 @@ const Home = () => {
             clearInterval(counts3);
         }
         count4.innerHTML = ++upto4;
-        if (upto4 === 1024) {
+        if (upto4 === 524) {
             clearInterval(counts4);
         }
     }
@@ -111,7 +111,7 @@ const Home = () => {
                             <h2 className='expertise-heading'>Benefits About Online Learning Expertise</h2>
                             <div className='d-flex justify-content-center align-items-center exp-content'>
 
-                                <FontAwesomeIcon icon={faBookAtlas} className='counter-icons' />
+                                <FontAwesomeIcon icon={faBookAtlas} className='exp-icons' />
                                 <div>
                                     <h3>Online Courses</h3>
                                     <p>Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content. Lorem ipsum may be used as a placeholder before final copy is available.</p>
@@ -119,7 +119,7 @@ const Home = () => {
 
                             </div>
                             <div className='d-flex justify-content-center align-items-center exp-content'>
-                                <FontAwesomeIcon icon={faCertificate} className='counter-icons' />
+                                <FontAwesomeIcon icon={faCertificate} className='exp-icons' />
                                 <div>
                                     <h3>Earn A Certificates</h3>
                                     <p>Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content. Lorem ipsum may be used as a placeholder before final copy is available.</p>
@@ -127,7 +127,7 @@ const Home = () => {
 
                             </div>
                             <div className='d-flex justify-content-center align-items-center exp-content'>
-                                <FontAwesomeIcon icon={faPeopleLine} className='counter-icons' />
+                                <FontAwesomeIcon icon={faPeopleLine} className='exp-icons' />
                                 <div>
                                     <h3>Learn with Expert</h3>
                                     <p>Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content. Lorem ipsum may be used as a placeholder before final copy is available.</p>
@@ -184,6 +184,15 @@ const Home = () => {
                         </Col>
                     </Row>
                 </Container>
+            </div>
+
+
+
+            <div className='Courses-section'>
+                <Container>
+                    
+                </Container>
+
             </div>
         </>
     );
