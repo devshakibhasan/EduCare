@@ -221,7 +221,7 @@ const Home = () => {
                                     placeholder="Search"
                                     className="me-2 search-box"
                                     aria-label="Search"
-                                    
+
                                 />
                                 <Button variant="outline-success">Search</Button>
                             </Form>
@@ -542,19 +542,24 @@ const Home = () => {
                 <Container className='course-instructor'>
                     <Row>
                         <Col lg='5' sm='5' xs='5' xxs='2'>
-                        <p>Become A Instructor</p>
-                        <h2>You can join with EduCare as a instructor?</h2>
+                            <p>Become A Instructor</p>
+                            <h2>You can join with EduCare as a instructor?</h2>
                         </Col>
                         <Col lg='5' sm='5' xs='7' xxs='2' className='instructor'>
                             <img src="https://i.ibb.co/KyrnZMv/image.png" alt="" />
-                        <a href="">
-                            <div><h3>Drop Information</h3></div>
-                        </a>
-                      
+                            <a href="">
+                                <div><h3>Drop Information</h3></div>
+                            </a>
+
                         </Col>
-                       
+
                     </Row>
                 </Container>
+
+                <Container>
+
+                </Container>
+
             </div>
         </>
     );
