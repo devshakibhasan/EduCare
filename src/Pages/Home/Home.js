@@ -1,12 +1,12 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 // import { faFacebook } from '@fortawesome/free-brands-svg-icons';
-import { faBookAtlas, faCalendar, faCertificate, faPeopleLine, faPeopleRoof, faStar } from '@fortawesome/free-solid-svg-icons';
+import { faBookAtlas, faC, faCalendar, faCameraRetro, faCartPlus, faCertificate, faPeopleLine, faPeopleRoof, faR, faRuble, faStar } from '@fortawesome/free-solid-svg-icons';
 
 import React from 'react';
 import { Container, Nav, Col, Row, Navbar, NavDropdown, Form, FormControl, Button } from 'react-bootstrap';
 
 import './Home.css'
-import { faStrava } from '@fortawesome/free-brands-svg-icons';
+import { faCss3, faDigitalOcean, faGolang, faHtml5, faJava, faJs, faNode, faPython, faReact, faStrava, faSwift } from '@fortawesome/free-brands-svg-icons';
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 const Home = () => {
@@ -44,7 +44,7 @@ const Home = () => {
         superLargeDesktop: {
             // the naming can be any, depends on you.
             breakpoint: { max: 4000, min: 3000 },
-            items: 5
+            items: 4
         },
         desktop: {
             breakpoint: { max: 3000, min: 1024 },
@@ -245,7 +245,7 @@ const Home = () => {
                                         <img src="https://preview.colorlib.com/theme/academia/images/xauthor-1.jpg.pagespeed.ic.Wy7AO4X3gr.webp" alt="" />
                                         <p>by John Smith</p>
                                     </div>
-                                    <p>50 lectures (190 hrs)</p>
+                                    <p className='course-durn'>50 lectures (190 hrs)</p>
                                 </div>
                             </div>
                             <div className='course-price'>
@@ -275,7 +275,7 @@ const Home = () => {
                                         <img src="https://preview.colorlib.com/theme/academia/images/xauthor-1.jpg.pagespeed.ic.Wy7AO4X3gr.webp" alt="" />
                                         <p>by John Smith</p>
                                     </div>
-                                    <p>50 lectures (190 hrs)</p>
+                                    <p className='course-durn'> 50 lectures (190 hrs)</p>
 
                                 </div>
                             </div>
@@ -305,11 +305,11 @@ const Home = () => {
                                         <img src="https://preview.colorlib.com/theme/academia/images/xauthor-1.jpg.pagespeed.ic.Wy7AO4X3gr.webp" alt="" />
                                         <p>by John Smith</p>
                                     </div>
-                                    <p>50 lectures (190 hrs)</p>
+                                    <p className='course-durn'>50 lectures (190 hrs)</p>
                                 </div>
                             </div>
                             <div className='course-price'>
-                                <p>$100 All Course / $15 per month</p>
+                                <p >$100 All Course / $15 per month</p>
                             </div>
                             <a href="">
                                 <div className='course-btn'>
@@ -334,7 +334,7 @@ const Home = () => {
                                         <img src="https://preview.colorlib.com/theme/academia/images/xauthor-1.jpg.pagespeed.ic.Wy7AO4X3gr.webp" alt="" />
                                         <p>by John Smith</p>
                                     </div>
-                                    <p>50 lectures (190 hrs)</p>
+                                    <p className='course-durn'>50 lectures (190 hrs)</p>
                                 </div>
                             </div>
                             <div className='course-price'>
@@ -350,7 +350,169 @@ const Home = () => {
 
                     </Carousel>;
                 </Container>
+                <Container className='course-category'>
+                    <div className='Courses-title'>
+                        <p className='subtitle'>Courses</p>
+                        <h2 className='title'>Browse Our Online Courses</h2>
+                    </div>
+                    <Row>
+                        <Col lg='2' md='4' sm='6'>
 
+                            <a href="">
+                                <div className='course-category-content'>
+                                    <div className='category-icon'>
+                                        <FontAwesomeIcon icon={faReact} className='category-icon' />
+                                    </div>
+
+                                    <h4>React</h4>
+                                    <p>15 Courses</p>
+                                </div>
+                            </a>
+
+                        </Col>
+                        <Col lg='2' md='4' sm='6'>
+                            <a href="">
+                                <div className='course-category-content'>
+                                    <div className='category-icon'>
+                                        <FontAwesomeIcon icon={faJava} className='category-icon' />
+                                    </div>
+
+                                    <h4>React</h4>
+                                    <p>15 Courses</p>
+                                </div>
+                            </a>
+
+                        </Col>
+                        <Col lg='2' md='4' sm='6'>
+                            <a href="">
+                                <div className='course-category-content '>
+                                    <div className='category-icon'>
+                                        <FontAwesomeIcon icon={faC} className='category-icon' />
+                                    </div>
+
+                                    <h4>React</h4>
+                                    <p>15 Courses</p>
+                                </div>
+                            </a>
+
+                        </Col>
+                        <Col lg='2' md='4' sm='6'>
+                            <a href="">
+                                <div className='course-category-content active'>
+                                    <div className='category-icon'>
+                                        <FontAwesomeIcon icon={faNode} className='category-icon' />
+                                    </div>
+
+                                    <h4>React</h4>
+                                    <p>15 Courses</p>
+                                </div>
+                            </a>
+
+                        </Col>
+                        <Col lg='2' md='4' sm='6'>
+                            <a href="">
+                                <div className='course-category-content'>
+                                    <div className='category-icon'>
+                                        <FontAwesomeIcon icon={faGolang} className='category-icon' />
+                                    </div>
+
+                                    <h4>React</h4>
+                                    <p>15 Courses</p>
+                                </div>
+                            </a>
+
+                        </Col>
+                        <Col lg='2' md='4' sm='6'>
+                            <a href="">
+                                <div className='course-category-content'>
+                                    <div className='category-icon'>
+                                        <FontAwesomeIcon icon={faPython} className='category-icon' />
+                                    </div>
+
+                                    <h4>React</h4>
+                                    <p>15 Courses</p>
+                                </div>
+                            </a>
+
+                        </Col>
+                    </Row>
+                    <Row>
+                        <Col lg='2' md='4' sm='6'>
+                            <a href="">
+                                <div className='course-category-content'>
+                                    <div className='category-icon'>
+                                        <FontAwesomeIcon icon={faC} />
+                                    </div>
+
+                                    <h4>React</h4>
+                                    <p>15 Courses</p>
+                                </div>
+                            </a>
+
+                        </Col >
+                        <Col lg='2' md='4' sm='6'>
+                            <a href="">
+                                <div className='course-category-content'>
+                                    <div className='category-icon'>
+                                        <FontAwesomeIcon icon={faR} />
+                                    </div>
+
+                                    <h4>React</h4>
+                                    <p>15 Courses</p>
+                                </div>
+                            </a>
+                        </Col>
+                        <Col lg='2' md='4' sm='6'>
+                            <a href="">
+                                <div className='course-category-content'>
+                                    <div className='category-icon'>
+                                        <FontAwesomeIcon icon={faJs} />
+                                    </div>
+
+                                    <h4>React</h4>
+                                    <p>15 Courses</p>
+                                </div>
+                            </a>
+                        </Col>
+                        <Col lg='2' md='4' sm='6'>
+                            <a href="">
+                                <div className='course-category-content'>
+                                    <div className='category-icon'>
+                                        <FontAwesomeIcon icon={faHtml5} />
+                                    </div>
+
+                                    <h4>React</h4>
+                                    <p>15 Courses</p>
+                                </div>
+                            </a>
+                        </Col>
+                        <Col lg='2' md='4' sm='6'>
+                            <a href="">
+                                <div className='course-category-content'>
+                                    <div className='category-icon'>
+                                        <FontAwesomeIcon icon={faCss3} />
+                                    </div>
+
+                                    <h4>React</h4>
+                                    <p>15 Courses</p>
+                                </div>
+                            </a>
+                        </Col>
+                        <Col lg='2' md='4' sm='6'>
+                            <a href="">
+                                <div className='course-category-content'>
+                                    <div className='category-icon'>
+                                        <FontAwesomeIcon icon={faSwift} />
+                                    </div>
+
+                                    <h4>React</h4>
+                                    <p>15 Courses</p>
+                                </div>
+                            </a>
+                        </Col>
+                    </Row>
+
+                </Container>
             </div>
         </>
     );
