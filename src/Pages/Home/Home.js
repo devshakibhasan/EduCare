@@ -558,7 +558,7 @@ const Home = () => {
 
                 <Container className='Certificate-line'>
                     <div className='Courses-title'>
-                        <p className='subtitle'>Over 1,235+ Course</p>
+                        <p className='subtitle'>Over 1,024+ Course</p>
                         <h2 className='title'>How It Work?</h2>
                     </div>
 
