@@ -656,6 +656,44 @@ element {
    background-color: #1f8849;
    border-color: #1f8849;
 }
+/* other-btn */
+.other-btn {
+    width: 15rem;
+    height: 4rem;
+    margin-top: 2rem;
+    background-color: #0A1524;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 1rem;
+    color: #fff;
+    font-weight: 600;
+    border-radius: .5rem;
+}
+.other-btn:hover {
+    background-color: #23954f;
+}
+.other-btn:hover a {
+    background-color: #23954f;
+}
+.other-btn a{
+    width: 10rem;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+    background-color: #0A1524;
+    color: #fff;
+
+}
+.other-btn a:hover{
+    background-color: #23954f;
+    color: #fff;
+
+}
+
+/* course category section start */
 .course-category {
     padding-top: 100px;
 }

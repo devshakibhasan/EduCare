@@ -350,6 +350,12 @@ const Home = () => {
 
                     </Carousel>;
                 </Container>
+                <Container className='other-btn'>
+                <a href="">
+                    <div><h4>Other Courses</h4></div>
+                </a>
+                </Container>
+              
                 <Container className='course-category'>
                     <div className='Courses-title'>
                         <p className='subtitle'>Courses</p>
