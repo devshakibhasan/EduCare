@@ -209,6 +209,25 @@ const Home = () => {
 
 
             <div className='Courses-section'>
+                <Container className='Courses-search'>
+                    <Row>
+                        <Col lg='7' md='7' sm='7'>
+                            <h2>All <span>Courses</span> of EduCare</h2>
+                        </Col>
+                        <Col lg='4' md='4' sm='5'>
+                            <Form className="d-flex">
+                                <FormControl
+                                    type="search"
+                                    placeholder="Search"
+                                    className="me-2"
+                                    aria-label="Search"
+                                    
+                                />
+                                <Button variant="outline-success">Search</Button>
+                            </Form>
+                        </Col>
+                    </Row>
+                </Container>
                 <Container>
                     <div className='Courses-title'>
                         <p className='subtitle'>Our Courses</p>
@@ -351,11 +370,11 @@ const Home = () => {
                     </Carousel>;
                 </Container>
                 <Container className='other-btn'>
-                <a href="">
-                    <div><h4>Other Courses</h4></div>
-                </a>
+                    <a href="">
+                        <div><h4>Other Courses</h4></div>
+                    </a>
                 </Container>
-              
+
                 <Container className='course-category'>
                     <div className='Courses-title'>
                         <p className='subtitle'>Courses</p>
@@ -371,7 +390,7 @@ const Home = () => {
                                     </div>
 
                                     <h4>React</h4>
-                                    <p>15 Courses</p>
+                                    <p>30 Courses</p>
                                 </div>
                             </a>
 
@@ -383,7 +402,7 @@ const Home = () => {
                                         <FontAwesomeIcon icon={faJava} className='category-icon' />
                                     </div>
 
-                                    <h4>React</h4>
+                                    <h4>Java</h4>
                                     <p>15 Courses</p>
                                 </div>
                             </a>
@@ -396,8 +415,8 @@ const Home = () => {
                                         <FontAwesomeIcon icon={faC} className='category-icon' />
                                     </div>
 
-                                    <h4>React</h4>
-                                    <p>15 Courses</p>
+                                    <h4>C Language</h4>
+                                    <p>25 Courses</p>
                                 </div>
                             </a>
 
@@ -410,7 +429,7 @@ const Home = () => {
                                     </div>
 
                                     <h4>React</h4>
-                                    <p>15 Courses</p>
+                                    <p>46 Courses</p>
                                 </div>
                             </a>
 
@@ -422,8 +441,8 @@ const Home = () => {
                                         <FontAwesomeIcon icon={faGolang} className='category-icon' />
                                     </div>
 
-                                    <h4>React</h4>
-                                    <p>15 Courses</p>
+                                    <h4>Go Language</h4>
+                                    <p>19 Courses</p>
                                 </div>
                             </a>
 
@@ -435,8 +454,8 @@ const Home = () => {
                                         <FontAwesomeIcon icon={faPython} className='category-icon' />
                                     </div>
 
-                                    <h4>React</h4>
-                                    <p>15 Courses</p>
+                                    <h4>Python</h4>
+                                    <p>21 Courses</p>
                                 </div>
                             </a>
 
@@ -450,8 +469,8 @@ const Home = () => {
                                         <FontAwesomeIcon icon={faC} />
                                     </div>
 
-                                    <h4>React</h4>
-                                    <p>15 Courses</p>
+                                    <h4>C Language</h4>
+                                    <p>38 Courses</p>
                                 </div>
                             </a>
 
@@ -463,8 +482,8 @@ const Home = () => {
                                         <FontAwesomeIcon icon={faR} />
                                     </div>
 
-                                    <h4>React</h4>
-                                    <p>15 Courses</p>
+                                    <h4>R Language</h4>
+                                    <p>12 Courses</p>
                                 </div>
                             </a>
                         </Col>
@@ -475,8 +494,8 @@ const Home = () => {
                                         <FontAwesomeIcon icon={faJs} />
                                     </div>
 
-                                    <h4>React</h4>
-                                    <p>15 Courses</p>
+                                    <h4>Java Script</h4>
+                                    <p>34 Courses</p>
                                 </div>
                             </a>
                         </Col>
@@ -487,8 +506,8 @@ const Home = () => {
                                         <FontAwesomeIcon icon={faHtml5} />
                                     </div>
 
-                                    <h4>React</h4>
-                                    <p>15 Courses</p>
+                                    <h4>HTML5</h4>
+                                    <p>28 Courses</p>
                                 </div>
                             </a>
                         </Col>
@@ -499,8 +518,8 @@ const Home = () => {
                                         <FontAwesomeIcon icon={faCss3} />
                                     </div>
 
-                                    <h4>React</h4>
-                                    <p>15 Courses</p>
+                                    <h4>CSS3</h4>
+                                    <p>32 Courses</p>
                                 </div>
                             </a>
                         </Col>
@@ -511,8 +530,8 @@ const Home = () => {
                                         <FontAwesomeIcon icon={faSwift} />
                                     </div>
 
-                                    <h4>React</h4>
-                                    <p>15 Courses</p>
+                                    <h4>Swift</h4>
+                                    <p>10 Courses</p>
                                 </div>
                             </a>
                         </Col>

@@ -556,6 +556,13 @@ ul {
 
 
 /* courses section start */
+.Courses-search {
+    color: #fff;
+    padding-bottom: 3rem;
+}
+.Courses-search span{
+    color: #28db6d;
+}
 .Courses-section {
     padding-top: 100px;
     padding-bottom: 100px;
