@@ -7,7 +7,8 @@ import { Container, Nav, Col, Row, Navbar, NavDropdown, Form, FormControl, Butto
 
 import './Home.css'
 import { faStrava } from '@fortawesome/free-brands-svg-icons';
-
+import Carousel from "react-multi-carousel";
+import "react-multi-carousel/lib/styles.css";
 const Home = () => {
     let counts = setInterval(updated);
     let counts2 = setInterval(updated);
@@ -39,6 +40,25 @@ const Home = () => {
             clearInterval(counts4);
         }
     }
+    const responsive = {
+        superLargeDesktop: {
+            // the naming can be any, depends on you.
+            breakpoint: { max: 4000, min: 3000 },
+            items: 5
+        },
+        desktop: {
+            breakpoint: { max: 3000, min: 1024 },
+            items: 3
+        },
+        tablet: {
+            breakpoint: { max: 1024, min: 464 },
+            items: 2
+        },
+        mobile: {
+            breakpoint: { max: 464, min: 0 },
+            items: 1
+        }
+    };
     return (
         <>
             <div className='home home-section'>
@@ -190,7 +210,145 @@ const Home = () => {
 
             <div className='Courses-section'>
                 <Container>
-                    
+                    <div className='Courses-title'>
+                        <p className='subtitle'>Our Courses</p>
+                        <h2 className='title'>Explore Our Popular Online Courses</h2>
+
+                    </div>
+
+                    <Carousel responsive={responsive}
+                        draggable={false}
+                        showDots={true}
+                        swipeable={true}
+                        ssr={true}
+                        infinite={true}
+                        autoPlay={true}
+                        autoPlaySpeed={2000}
+                        arrows={false}
+                    >
+                        <div className='carousel-content'>
+                            <div className='d-flex justify-content-start align-items-start '>
+                                <FontAwesomeIcon icon={faBookAtlas} className='carousel-icons' />
+                                <div>
+                                    <h3> Programming with WordPress</h3>
+                                    <div className='carousel-ratings'>
+                                        <FontAwesomeIcon icon={faStar} className='carousel-star' />
+                                        <FontAwesomeIcon icon={faStar} className='carousel-star' />
+                                        <FontAwesomeIcon icon={faStar} className='carousel-star' />
+                                        <FontAwesomeIcon icon={faStar} className='carousel-star' />
+                                        <FontAwesomeIcon icon={faStar} className='carousel-star' />
+                                        <p>(5.0)</p>
+                                    </div>
+
+
+                                    <div className='crsl-inst'>
+                                        <img src="https://preview.colorlib.com/theme/academia/images/xauthor-1.jpg.pagespeed.ic.Wy7AO4X3gr.webp" alt="" />
+                                        <p>by John Smith</p>
+                                    </div>
+                                    <p>50 lectures (190 hrs)</p>
+                                </div>
+                            </div>
+                            <div className='course-price'>
+                                <p>$100 All Course / $15 per month</p>
+                            </div>
+                            <a href="">
+                                <div className='course-btn'>
+                                    <p>Enroll Now</p>
+                                </div>
+                            </a>
+                        </div>
+
+                        <div className='carousel-content'>
+                            <div className='d-flex justify-content-start align-items-start '>
+                                <FontAwesomeIcon icon={faBookAtlas} className='carousel-icons' />
+                                <div>
+                                    <h3>HTML, CSS, and Javascript for Web Developers</h3>
+                                    <div className='carousel-ratings'>
+                                        <FontAwesomeIcon icon={faStar} className='carousel-star' />
+                                        <FontAwesomeIcon icon={faStar} className='carousel-star' />
+                                        <FontAwesomeIcon icon={faStar} className='carousel-star' />
+                                        <FontAwesomeIcon icon={faStar} className='carousel-star' />
+                                        <FontAwesomeIcon icon={faStar} className='carousel-star' />
+                                        <p>(5.0)</p>
+                                    </div>
+                                    <div className='crsl-inst'>
+                                        <img src="https://preview.colorlib.com/theme/academia/images/xauthor-1.jpg.pagespeed.ic.Wy7AO4X3gr.webp" alt="" />
+                                        <p>by John Smith</p>
+                                    </div>
+                                    <p>50 lectures (190 hrs)</p>
+
+                                </div>
+                            </div>
+                            <div className='course-price'>
+                                <p>$100 All Course / $15 per month</p>
+                            </div>
+                            <a href="">
+                                <div className='course-btn'>
+                                    <p>Enroll Now</p>
+                                </div>
+                            </a>
+                        </div>
+                        <div className='carousel-content'>
+                            <div className='d-flex justify-content-start align-items-start '>
+                                <FontAwesomeIcon icon={faBookAtlas} className='carousel-icons' />
+                                <div>
+                                    <h3>Basic Fundamentals for Software Engineering</h3>
+                                    <div className='carousel-ratings'>
+                                        <FontAwesomeIcon icon={faStar} className='carousel-star' />
+                                        <FontAwesomeIcon icon={faStar} className='carousel-star' />
+                                        <FontAwesomeIcon icon={faStar} className='carousel-star' />
+                                        <FontAwesomeIcon icon={faStar} className='carousel-star' />
+                                        <FontAwesomeIcon icon={faStar} className='carousel-star' />
+                                        <p>(5.0)</p>
+                                    </div>
+                                    <div className='crsl-inst'>
+                                        <img src="https://preview.colorlib.com/theme/academia/images/xauthor-1.jpg.pagespeed.ic.Wy7AO4X3gr.webp" alt="" />
+                                        <p>by John Smith</p>
+                                    </div>
+                                    <p>50 lectures (190 hrs)</p>
+                                </div>
+                            </div>
+                            <div className='course-price'>
+                                <p>$100 All Course / $15 per month</p>
+                            </div>
+                            <a href="">
+                                <div className='course-btn'>
+                                    <p>Enroll Now</p>
+                                </div>
+                            </a>
+                        </div>
+                        <div className='carousel-content'>
+                            <div className='d-flex justify-content-start align-items-start '>
+                                <FontAwesomeIcon icon={faBookAtlas} className='carousel-icons' />
+                                <div>
+                                    <h3>Enhancing Adobe Photoshop CC 2020 Skills</h3>
+                                    <div className='carousel-ratings'>
+                                        <FontAwesomeIcon icon={faStar} className='carousel-star' />
+                                        <FontAwesomeIcon icon={faStar} className='carousel-star' />
+                                        <FontAwesomeIcon icon={faStar} className='carousel-star' />
+                                        <FontAwesomeIcon icon={faStar} className='carousel-star' />
+                                        <FontAwesomeIcon icon={faStar} className='carousel-star' />
+                                        <p>(5.0)</p>
+                                    </div>
+                                    <div className='crsl-inst'>
+                                        <img src="https://preview.colorlib.com/theme/academia/images/xauthor-1.jpg.pagespeed.ic.Wy7AO4X3gr.webp" alt="" />
+                                        <p>by John Smith</p>
+                                    </div>
+                                    <p>50 lectures (190 hrs)</p>
+                                </div>
+                            </div>
+                            <div className='course-price'>
+                                <p>$100 All Course / $15 per month</p>
+                            </div>
+                            <a href="">
+                                <div className='course-btn'>
+                                    <p>Enroll Now</p>
+                                </div>
+                            </a>
+
+                        </div>
+
+                    </Carousel>;
                 </Container>
 
             </div>

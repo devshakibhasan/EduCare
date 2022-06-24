@@ -548,100 +548,91 @@ ul {
 
 
 /* courses section start */
-
-.owl-prev {
-    background: url('https://res.cloudinary.com/milairagny/image/upload/v1487938188/left-arrow_rlxamy.png') left center no-repeat;
-    height: 54px;
-    position: absolute;
-    top: 50%;
-    width: 27px;
-    z-index: 1000;
-    left: 2%;
-    cursor: pointer;
-    color: transparent;
-    margin-top: -27px;
+.Courses-section {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: #212832;
 }
-
-.owl-next {
-    background: url('https://res.cloudinary.com/milairagny/image/upload/v1487938220/right-arrow_zwe9sf.png') right center no-repeat;
-    height: 54px;
-    position: absolute;
-    top: 50%;
-    width: 27px;
-    z-index: 1000;
-    right: 2%;
-    cursor: pointer;
-    color: transparent;
-    margin-top: -27px;
+.carousel-content {
+    background-color: #28db6d;
+    margin-right: 1rem;
+    height: 22rem;
+    margin-bottom: 3rem;
+    color: #fff;
+    border-radius: .2rem;
 }
-
-.owl-prev:hover,
-.owl-next:hover {
-    opacity: 0.5;
+.Courses-title .title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    padding-bottom: 3rem;
+    font-size: 3rem;
 }
+.Courses-title .subtitle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #28db6d;
 
-
-/* Owl Carousel */
-
-
-/* Popup Text */
-
-.white-popup-block {
-    background: #FFF;
-    padding: 20px 30px;
-    text-align: left;
-    max-width: 650px;
-    margin: 40px auto;
-    position: relative;
+    font-size: 1.5rem;
 }
-
-.popuptext {
-    display: table;
+.carousel-content a{
+    text-decoration: none;
 }
-
-.popuptext p {
-    margin-bottom: 10px;
+.carousel-content h3{
+    font-size: 26px;
+    font-weight: 500;
+    margin-bottom: 5px;
+    line-height: 1.5;
+  
 }
-
-.popuptext span {
-    font-weight: bold;
-    float: right;
+.carousel-icons {
+    font-size: 60px;
+    line-height: 1.2;
+    color: #fff;
+    padding: 1rem;
 }
-
-/* Popup Text */
-
-/* Icon CSS */
-.item {
-    position: relative;
+.carousel-ratings {
+    display: flex;
+ 
 }
-
-.item i {
-    display: none;
-    font-size: 4rem;
-    color: #FFF;
-    opacity: 1;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    -webkit-transform: translate(-50%, -50%);
+.carousel-star {
+    color: #FFA200;
+    font-size: 15px;
+ 
 }
-
-.item a {
-    display: block;
-    width: 100%;
+.carousel-ratings p{
+    padding-left: 0.5rem;
 }
-
-.item a:hover:before {
-    content: "";
-    background: rgba(0, 0, 0, 0.5);
-    position: absolute;
-    height: 100%;
-    width: 100%;
-    z-index: 1;
+.crsl-inst {
+display: flex;
 }
-
-.item a:hover i {
-    display: block;
-    z-index: 2;
+.crsl-inst img{
+height: 30px;
+width: 30px;
+border-radius: 30px;
+}
+.crsl-inst p{
+padding-left: 1rem;
+}
+.course-price {
+    background-color: #F8F8F8;
+    height: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem;
+    border-radius: .2rem;
+    color: #000;
+}
+.course-btn {
+    background-color: #F8F8F8;
+    height: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem;
+    border-radius: .2rem;
+    color: #000;
 }
