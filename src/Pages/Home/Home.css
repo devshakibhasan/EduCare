@@ -887,3 +887,16 @@ element {}
 .instructor{
     display: flex;
 }
+
+.Certificate-line {
+    padding-top: 10rem;
+    color: #fff;
+}
+.Certificate-content {
+    background-color: #1f8849;
+    padding: 2rem;
+    border-radius: .2rem;
+}
+.Certificate-icon {
+    font-size: 3rem;
+}

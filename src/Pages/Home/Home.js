@@ -1,6 +1,6 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 // import { faFacebook } from '@fortawesome/free-brands-svg-icons';
-import { faBookAtlas, faC, faCalendar, faCameraRetro, faCartPlus, faCertificate, faPeopleLine, faPeopleRoof, faR, faRuble, faStar } from '@fortawesome/free-solid-svg-icons';
+import { faBookAtlas, faBookOpen, faC, faCalendar, faCameraRetro, faCartPlus, faCertificate, faPeopleLine, faPeopleRoof, faR, faRuble, faSearch, faStar } from '@fortawesome/free-solid-svg-icons';
 
 import React from 'react';
 import { Container, Nav, Col, Row, Navbar, NavDropdown, Form, FormControl, Button } from 'react-bootstrap';
@@ -556,8 +556,35 @@ const Home = () => {
                     </Row>
                 </Container>
 
-                <Container>
+                <Container className='Certificate-line'>
+                    <div className='Courses-title'>
+                        <p className='subtitle'>Over 1,235+ Course</p>
+                        <h2 className='title'>How It Work?</h2>
+                    </div>
 
+                    <Row>
+                        <Col>
+                            <div className='Certificate-content'>
+                                <FontAwesomeIcon icon={faSearch} className='Certificate-icon'/>
+                                <h3>Find Your Course</h3>
+                                <p>It has survived not only centurie also leap into electronic.</p>
+                            </div>
+                        </Col>
+                        <Col>
+                            <div className='Certificate-content'>
+                                <FontAwesomeIcon icon={faBookOpen} className='Certificate-icon'/>
+                                <h3>Book A Seat</h3>
+                                <p>It has survived not only centurie also leap into electronic.</p>
+                            </div>
+                        </Col>
+                        <Col>
+                            <div className='Certificate-content'>
+                                <FontAwesomeIcon icon={faCertificate} className='Certificate-icon'/>
+                                <h3>Get Certificate</h3>
+                                <p>It has survived not only centurie also leap into electronic.</p>
+                            </div>
+                        </Col>
+                    </Row>
                 </Container>
 
             </div>
