@@ -262,7 +262,7 @@ const Home = () => {
                             <div className='d-flex justify-content-start align-items-start '>
                                 <FontAwesomeIcon icon={faBookAtlas} className='carousel-icons' />
                                 <div>
-                                    <h3>HTML, CSS, and Javascript for Web Developers</h3>
+                                    <h3> Web design and Developement</h3>
                                     <div className='carousel-ratings'>
                                         <FontAwesomeIcon icon={faStar} className='carousel-star' />
                                         <FontAwesomeIcon icon={faStar} className='carousel-star' />
@@ -292,7 +292,7 @@ const Home = () => {
                             <div className='d-flex justify-content-start align-items-start '>
                                 <FontAwesomeIcon icon={faBookAtlas} className='carousel-icons' />
                                 <div>
-                                    <h3>Basic Fundamentals for Software Engineering</h3>
+                                    <h3>Software Engineering</h3>
                                     <div className='carousel-ratings'>
                                         <FontAwesomeIcon icon={faStar} className='carousel-star' />
                                         <FontAwesomeIcon icon={faStar} className='carousel-star' />
@@ -321,7 +321,7 @@ const Home = () => {
                             <div className='d-flex justify-content-start align-items-start '>
                                 <FontAwesomeIcon icon={faBookAtlas} className='carousel-icons' />
                                 <div>
-                                    <h3>Enhancing Adobe Photoshop CC 2020 Skills</h3>
+                                    <h3>Adobe Photoshop CC 2020 Skills</h3>
                                     <div className='carousel-ratings'>
                                         <FontAwesomeIcon icon={faStar} className='carousel-star' />
                                         <FontAwesomeIcon icon={faStar} className='carousel-star' />
