@@ -524,7 +524,15 @@ ul {
 }
 
 .counter-content {
-    background-color: #2b9054;
+    background-color: #212832;
+    margin-bottom: 2rem;
+    padding: 1rem;
+    border-radius: 5px;
+    margin-top: 2rem;
+    color: #fff;
+}
+.counter-content:hover {
+    background-color: #29a95a;
     margin-bottom: 2rem;
     padding: 1rem;
     border-radius: 5px;
