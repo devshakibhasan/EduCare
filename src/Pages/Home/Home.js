@@ -223,7 +223,7 @@ const Home = () => {
                         ssr={true}
                         infinite={true}
                         autoPlay={true}
-                        autoPlaySpeed={2000}
+                        autoPlaySpeed={2500}
                         arrows={false}
                     >
                         <div className='carousel-content'>
