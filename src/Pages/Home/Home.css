@@ -745,11 +745,13 @@ element {}
     padding: .1rem 0px .1rem 0px;
     margin-top: 2rem;
 }
-.course-category-content.active p{
+
+.course-category-content.active p {
 
     color: #fff;
 
 }
+
 .course-category-content.active:hover {
     background-color: #0F1D2D;
     border-radius: .2rem;
@@ -757,7 +759,8 @@ element {}
     padding: .1rem 0px .1rem 0px;
     margin-top: 2rem;
 }
-.course-category-content.active:hover p{
+
+.course-category-content.active:hover p {
     color: #FFA200;
 }
 
@@ -776,7 +779,8 @@ element {}
     padding: .1rem 0px .1rem 0px;
     margin-top: 2rem;
 }
-.course-category-content:hover p{
+
+.course-category-content:hover p {
     color: #fff;
 
 }
@@ -811,20 +815,23 @@ element {}
     border-radius: 1rem;
     padding-left: 3rem;
 }
+
 @media only screen and (min-width: 10px) and (max-width: 768px) {
     .course-instructor {
         margin-top: 5rem;
         background-color: #23954f;
         height: 25rem;
         border-radius: 1rem;
-    
+
     }
-    .instructor img{
+
+    .instructor img {
         display: flex;
         height: 5rem;
         padding-top: 2rem;
         margin-left: -1rem;
     }
+
     .course-instructor a {
         margin-top: 25%;
         text-decoration: none;
@@ -839,7 +846,7 @@ element {}
         border-radius: 1rem;
         margin-left: -5rem;
     }
-    
+
 }
 
 .course-instructor p {
@@ -848,7 +855,7 @@ element {}
     padding-top: 15%;
     color: #FFA200;
     font-size: 1.5rem;
-   font-weight: 600;
+    font-weight: 600;
 }
 
 .course-instructor h2 {
@@ -865,6 +872,7 @@ element {}
     background-color: #12c556;
 
 }
+
 .course-instructor a {
     margin-top: 15%;
     text-decoration: none;
@@ -879,24 +887,57 @@ element {}
     border-radius: 1rem;
 }
 
-.instructor img{
+.instructor img {
     display: flex;
     height: 5rem;
     margin-top: 6rem;
 }
-.instructor{
+
+.instructor {
     display: flex;
 }
 
 .Certificate-line {
     padding-top: 10rem;
     color: #fff;
+
 }
+
+.Certificate-cntn {
+    display: flex;
+    margin-bottom: 3rem;
+}
+
+.Certificate-cntn img {
+    height: 3rem;
+}
+
+.Certificate-cntn .img2 {
+    display: none;
+}
+
+@media only screen and (min-width: 10px) and (max-width: 768px) {
+    .Certificate-cntn img {
+        display: none;
+    }
+
+    .Certificate-cntn {
+        display: inline-block;
+        margin-bottom: 3rem;
+    }
+    .Certificate-cntn .img2 {
+        display: block;
+        color: #fff;
+        padding-left: 10%;
+    }
+}
+
 .Certificate-content {
     background-color: #1f8849;
     padding: 2rem;
     border-radius: .2rem;
 }
+
 .Certificate-icon {
     font-size: 3rem;
 }

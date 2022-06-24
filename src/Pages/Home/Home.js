@@ -563,26 +563,31 @@ const Home = () => {
                     </div>
 
                     <Row>
-                        <Col>
+                        <Col className='Certificate-cntn' lg='4' md='4' sm='12' xxs='12'>
                             <div className='Certificate-content'>
                                 <FontAwesomeIcon icon={faSearch} className='Certificate-icon'/>
                                 <h3>Find Your Course</h3>
                                 <p>It has survived not only centurie also leap into electronic.</p>
                             </div>
+                            <img src="https://i.ibb.co/KyrnZMv/image.png" alt="" />
+                            <img src="https://i.ibb.co/S6xLxFp/image-1.png" alt=""  className='img2' />
                         </Col>
-                        <Col>
+                        <Col className='Certificate-cntn' lg='4' md='4' sm='12' xxs='12'>
                             <div className='Certificate-content'>
-                                <FontAwesomeIcon icon={faBookOpen} className='Certificate-icon'/>
+                                <FontAwesomeIcon icon={faBookOpen} className='Certificate-icon' />
                                 <h3>Book A Seat</h3>
                                 <p>It has survived not only centurie also leap into electronic.</p>
                             </div>
+                            <img src="https://i.ibb.co/KyrnZMv/image.png" alt="" />
+                            <img src="https://i.ibb.co/S6xLxFp/image-1.png" alt="" className='img2'/>
                         </Col>
-                        <Col>
+                        <Col className='Certificate-cntn' lg='3' md='3' sm='12' xxs='12'>
                             <div className='Certificate-content'>
                                 <FontAwesomeIcon icon={faCertificate} className='Certificate-icon'/>
                                 <h3>Get Certificate</h3>
                                 <p>It has survived not only centurie also leap into electronic.</p>
                             </div>
+                          
                         </Col>
                     </Row>
                 </Container>
