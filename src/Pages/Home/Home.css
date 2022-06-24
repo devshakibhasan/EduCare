@@ -531,6 +531,7 @@ ul {
     margin-top: 2rem;
     color: #fff;
 }
+
 .counter-content:hover {
     background-color: #29a95a;
     margin-bottom: 2rem;
@@ -560,14 +561,22 @@ ul {
     color: #fff;
     padding-bottom: 3rem;
 }
-.Courses-search span{
+
+.search-box {
+    background-color: transparent;
+    border: 1px solid #23954f;
+}
+
+.Courses-search span {
     color: #28db6d;
 }
+
 .Courses-section {
     padding-top: 100px;
     padding-bottom: 100px;
     background-color: #212832;
 }
+
 .carousel-content {
     background-color: #29A95A;
     margin-right: 1rem;
@@ -576,7 +585,8 @@ ul {
     color: #fff;
     border-radius: .2rem;
 }
-.Courses-title .title{
+
+.Courses-title .title {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -584,7 +594,8 @@ ul {
     padding-bottom: 3rem;
     font-size: 3rem;
 }
-.Courses-title .subtitle{
+
+.Courses-title .subtitle {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -592,49 +603,60 @@ ul {
 
     font-size: 1.5rem;
 }
-.carousel-content a{
+
+.carousel-content a {
     text-decoration: none;
 }
-.carousel-content h3{
+
+.carousel-content h3 {
     font-size: 26px;
     font-weight: 500;
     margin-bottom: 5px;
     line-height: 1.5;
-  
+
 }
+
 .carousel-icons {
     font-size: 60px;
     line-height: 1.2;
     color: #fff;
     padding: 1rem;
 }
+
 .carousel-ratings {
     display: flex;
- 
+
 }
+
 .carousel-star {
     color: #FFA200;
     font-size: 20px;
- 
+
 }
-.carousel-ratings p{
+
+.carousel-ratings p {
     padding-left: 0.5rem;
 }
+
 .crsl-inst {
-display: flex;
+    display: flex;
 }
-.crsl-inst img{
-height: 30px;
-width: 30px;
-border-radius: 30px;
+
+.crsl-inst img {
+    height: 30px;
+    width: 30px;
+    border-radius: 30px;
 }
-.crsl-inst p{
-padding-left: 1rem;
+
+.crsl-inst p {
+    padding-left: 1rem;
 }
+
 .course-durn {
     color: #FFA200;
     font-weight: 700;
 }
+
 .course-price {
     background-color: #429963;
     height: 3rem;
@@ -645,6 +667,7 @@ padding-left: 1rem;
     border-radius: .2rem;
     color: #fff;
 }
+
 .course-btn {
     background-color: #1f8849;
     height: 3rem;
@@ -656,13 +679,15 @@ padding-left: 1rem;
     color: #fff;
     font-weight: 600;
 }
-element {
-}
+
+element {}
+
 .react-multi-carousel-dot button {
-   color: #1f8849;
-   background-color: #1f8849;
-   border-color: #1f8849;
+    color: #1f8849;
+    background-color: #1f8849;
+    border-color: #1f8849;
 }
+
 /* other-btn */
 .other-btn {
     width: 15rem;
@@ -677,13 +702,16 @@ element {
     font-weight: 600;
     border-radius: .5rem;
 }
+
 .other-btn:hover {
     background-color: #23954f;
 }
+
 .other-btn:hover a {
     background-color: #23954f;
 }
-.other-btn a{
+
+.other-btn a {
     width: 10rem;
     text-decoration: none;
     display: flex;
@@ -694,7 +722,8 @@ element {
     color: #fff;
 
 }
-.other-btn a:hover{
+
+.other-btn a:hover {
     background-color: #23954f;
     color: #fff;
 
@@ -704,25 +733,28 @@ element {
 .course-category {
     padding-top: 100px;
 }
-.course-category a{
+
+.course-category a {
     text-decoration: none;
 }
 
-.course-category-content.active{
+.course-category-content.active {
     background-color: #29a95a;
     border-radius: .2rem;
     color: #fff;
     padding: .1rem 0px .1rem 0px;
     margin-top: 2rem;
 }
-.course-category-content{
+
+.course-category-content {
     background-color: #0F1D2D;
     border-radius: .2rem;
     color: #fff;
     padding: .1rem 0px .1rem 0px;
     margin-top: 2rem;
 }
-.course-category-content:hover{
+
+.course-category-content:hover {
     background-color: #29a95a;
     border-radius: .2rem;
     color: #fff;
@@ -738,13 +770,99 @@ element {
     margin-top: 1rem;
     color: #fff;
 }
-.course-category-content h4{
+
+.course-category-content h4 {
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.course-category-content p{
+
+.course-category-content p {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.course-instructor {
+    margin-top: 5rem;
+    background-color: #23954f;
+    height: 20rem;
+    border-radius: 1rem;
+    padding-left: 3rem;
+}
+@media only screen and (min-width: 10px) and (max-width: 768px) {
+    .course-instructor {
+        margin-top: 5rem;
+        background-color: #23954f;
+        height: 30rem;
+        border-radius: 1rem;
+    
+    }
+    .instructor img{
+        display: flex;
+        height: 5rem;
+        padding-top: 2rem;
+        margin-left: -1rem;
+    }
+    .course-instructor a {
+        margin-top: 25%;
+        text-decoration: none;
+        display: flex;
+        align-items: center;
+        justify-content: left;
+        background-color: #0a1524;
+        color: #fff;
+        float: left;
+        height: 2rem;
+        padding: -2rem;
+        border-radius: 1rem;
+        margin-left: -5rem;
+    }
+    
+}
+
+.course-instructor p {
+    display: flex;
+    align-items: center;
+    padding-top: 15%;
+    color: #FFA200;
+    font-size: 1.5rem;
+   
+}
+
+.course-instructor h2 {
+    font-size: 35px;
+    font-weight: 500;
+    margin-bottom: 0;
+    line-height: 1.4;
+    display: flex;
+    align-items: center;
+    color: #fff;
+}
+
+.course-instructor a:hover {
+    background-color: #28db6d;
+
+}
+.course-instructor a {
+    margin-top: 15%;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #0a1524;
+    color: #fff;
+    float: right;
+    height: 5rem;
+    padding: 2rem;
+    border-radius: 1rem;
+}
+
+.instructor img{
+    display: flex;
+    height: 5rem;
+    margin-top: 6rem;
+}
+.instructor{
+    display: flex;
 }
